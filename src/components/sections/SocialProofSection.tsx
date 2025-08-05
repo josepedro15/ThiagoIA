@@ -144,7 +144,7 @@ export const SocialProofSection = () => {
 
         {/* User Counter */}
         <div className="text-center bg-primary/10 rounded-lg p-6">
-          <p className="text-2xl font-bold text-primary mb-2">+127</p>
+          <p className="text-2xl font-bold text-primary mb-2">+1.270</p>
           <p className="text-muted-foreground">
             usuários ativos
           </p>
