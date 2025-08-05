@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* ClinicaIA Landing Page Design System */
+    --background: 222.2 84% 4.9%; /* #0F172A - Dark navy blue */
+    --foreground: 0 0% 100%; /* Pure white text */
+
+    --card: 217.2 32.6% 17.5%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 217.2 32.6% 17.5%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 158 64% 52%; /* #10B981 - Green for CTAs */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217.2 32.6% 20%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 217.2 32.6% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 158 64% 52%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217.2 32.6% 25%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 158 64% 52%;
+
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --navy-dark: 222.2 84% 4.9%; /* #0F172A */
+    --navy-light: 217.2 32.6% 17.5%;
+    --green-primary: 158 64% 52%; /* #10B981 */
+    --green-hover: 158 64% 45%;
+    --white-pure: 0 0% 100%;
+    --gray-text: 215 20.2% 65.1%;
+
+    /* Gradients */
+    --gradient-cta: linear-gradient(135deg, hsl(var(--green-primary)), hsl(var(--green-hover)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--navy-light)), hsl(var(--navy-dark)));
+
+    /* Shadows */
+    --shadow-card: 0 10px 30px -10px hsl(var(--navy-dark) / 0.3);
+    --shadow-cta: 0 8px 25px -5px hsl(var(--green-primary) / 0.4);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
