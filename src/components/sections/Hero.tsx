@@ -25,14 +25,13 @@ export const Hero = () => {
       
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-          Conserte seus equipamentos médicos em até 30 s, 
-          <span className="text-primary">direto no WhatsApp</span>
+          Economize mais de <span className="text-primary">R$2000 em Manutenção</span> de Equipamentos Médicos
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-          Pare de perder consultas e dinheiro: o Técnico Thiago IA devolve seus aparelhos à ativa em segundos, 
+          Especialista em Ecocardiógrafos, Mamógrafos, Densitometria Óssea e ultrassom. 
           <br className="hidden md:block" />
-          24 h por dia.
+          Disponível 24h por uma fração do custo!
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
