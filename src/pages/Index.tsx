@@ -1,5 +1,6 @@
 import { Hero } from '@/components/sections/Hero';
 import { Benefits } from '@/components/sections/Benefits';
+import { EquipmentSpecialization } from '@/components/sections/EquipmentSpecialization';
 import { SocialProofSection } from '@/components/sections/SocialProofSection';
 import { Story } from '@/components/sections/Story';
 import { Pricing } from '@/components/sections/Pricing';
@@ -18,6 +19,7 @@ const Index = () => {
       <main>
         <Hero />
         <Benefits />
+        <EquipmentSpecialization />
         <SocialProofSection />
         <Story />
         <Pricing />
@@ -30,7 +32,7 @@ const Index = () => {
         <div className="container mx-auto text-center text-sm text-muted-foreground">
           <p>&copy; 2024 ClinicaIA. Todos os direitos reservados.</p>
           <p className="mt-2">
-            Política de Privacidade | Termos de Uso | Contato: suporte@clinicaia.com
+            Política de Privacidade | Termos de Uso | Contato: atendesoft@gmail.com
           </p>
         </div>
       </footer>

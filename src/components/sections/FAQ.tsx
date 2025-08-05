@@ -27,7 +27,7 @@ export const FAQ = () => {
     },
     {
       question: "Como solicito reembolso dentro da garantia?",
-      answer: "Simples: envie um email para suporte@tecnicothiago.com dentro de 30 dias. Devolvemos 100% do valor em até 7 dias úteis, sem perguntas."
+      answer: "Simples: envie um email para atendesoft@gmail.com dentro de 30 dias. Devolvemos 100% do valor em até 7 dias úteis, sem perguntas."
     },
     {
       question: "Receberei atualizações futuras?",
@@ -84,7 +84,7 @@ export const FAQ = () => {
             Ainda tem dúvidas?
           </h4>
           <p className="text-muted-foreground">
-            Entre em contato: <span className="text-primary">suporte@clinicaia.com</span>
+            Entre em contato: <span className="text-primary">atendesoft@gmail.com</span>
           </p>
         </div>
       </div>
