@@ -2,7 +2,6 @@ import { Hero } from '@/components/sections/Hero';
 import { Benefits } from '@/components/sections/Benefits';
 import { EquipmentSpecialization } from '@/components/sections/EquipmentSpecialization';
 import { SocialProofSection } from '@/components/sections/SocialProofSection';
-import { Story } from '@/components/sections/Story';
 import { Pricing } from '@/components/sections/Pricing';
 import { Guarantee } from '@/components/sections/Guarantee';
 import { FAQ } from '@/components/sections/FAQ';
@@ -21,7 +20,6 @@ const Index = () => {
         <Benefits />
         <EquipmentSpecialization />
         <SocialProofSection />
-        <Story />
         <Pricing />
         <Guarantee />
         <FAQ />
@@ -30,7 +28,7 @@ const Index = () => {
       
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 ClinicaIA. Todos os direitos reservados.</p>
+          <p>&copy; 2024 ThiagoIA. Todos os direitos reservados.</p>
           <p className="mt-2">
             Política de Privacidade | Termos de Uso | Contato: atendesoft@gmail.com
           </p>

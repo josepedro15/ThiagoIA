@@ -55,7 +55,7 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom ClinicaIA colors
+				// Custom ThiagoIA colors
 				navy: {
 					dark: 'hsl(var(--navy-dark))',
 					light: 'hsl(var(--navy-light))'

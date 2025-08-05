@@ -55,7 +55,7 @@ export const Pricing = () => {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-primary">✅</span>
-                <span className="text-card-foreground">Especialista em eco, mamógrafo, densitômetro</span>
+                <span className="text-card-foreground">Especialista em eco, mamógrafo, densitômetro e ultrassom</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-primary">✅</span>

@@ -12,7 +12,7 @@ export const Guarantee = () => {
             
             <div className="max-w-2xl mx-auto space-y-4 text-lg text-muted-foreground mb-8">
               <p>
-                <strong className="text-foreground">Estou tão confiante</strong> que o ClinicaIA vai transformar 
+                <strong className="text-foreground">Estou tão confiante</strong> que o ThiagoIA vai transformar 
                 sua clínica que ofereço uma garantia incondicional.
               </p>
               
@@ -57,7 +57,7 @@ export const Guarantee = () => {
                 "Você não tem nada a perder e milhares de reais para ganhar. 
                 O risco é todo meu."
               </p>
-              <p className="text-sm text-muted-foreground mt-2">- João Silva, Criador do ClinicaIA</p>
+              <p className="text-sm text-muted-foreground mt-2">- João Silva, Criador do ThiagoIA</p>
             </div>
           </div>
         </div>

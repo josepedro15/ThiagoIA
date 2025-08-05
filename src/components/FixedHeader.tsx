@@ -38,7 +38,7 @@ export const FixedHeader = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-foreground">ClinicaIA</span>
+            <span className="font-bold text-foreground">ThiagoIA</span>
             <Timer className="text-red-500" />
           </div>
           <Button 

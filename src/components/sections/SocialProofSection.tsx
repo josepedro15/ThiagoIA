@@ -122,29 +122,29 @@ export const SocialProofSection = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="bg-card rounded-lg p-6 text-center">
             <div className="text-3xl mb-2">📈</div>
-            <h4 className="font-semibold text-card-foreground mb-2">Clínica A</h4>
-            <p className="text-primary font-bold text-xl">+R$ 45.000</p>
+            <h4 className="font-semibold text-card-foreground mb-2">ClearScan Medicina</h4>
+            <p className="text-primary font-bold text-xl">+R$ 3.300</p>
             <p className="text-sm text-muted-foreground">em 3 meses</p>
           </div>
           
           <div className="bg-card rounded-lg p-6 text-center">
             <div className="text-3xl mb-2">💰</div>
-            <h4 className="font-semibold text-card-foreground mb-2">Clínica B</h4>
-            <p className="text-primary font-bold text-xl">+R$ 67.500</p>
+            <h4 className="font-semibold text-card-foreground mb-2">UltraDiag Center</h4>
+            <p className="text-primary font-bold text-xl">+R$ 5.000</p>
             <p className="text-sm text-muted-foreground">em 4 meses</p>
           </div>
           
           <div className="bg-card rounded-lg p-6 text-center">
             <div className="text-3xl mb-2">🚀</div>
-            <h4 className="font-semibold text-card-foreground mb-2">Clínica C</h4>
-            <p className="text-primary font-bold text-xl">+R$ 89.200</p>
-            <p className="text-sm text-muted-foreground">em 6 meses</p>
+            <h4 className="font-semibold text-card-foreground mb-2">VitalImagem Centro Médico</h4>
+            <p className="text-primary font-bold text-xl">+R$ 8.500</p>
+            <p className="text-sm text-muted-foreground">em 12 meses</p>
           </div>
         </div>
 
         {/* User Counter */}
         <div className="text-center bg-primary/10 rounded-lg p-6">
-          <p className="text-2xl font-bold text-primary mb-2">+27.653</p>
+          <p className="text-2xl font-bold text-primary mb-2">+127</p>
           <p className="text-muted-foreground">
             usuários ativos
           </p>
