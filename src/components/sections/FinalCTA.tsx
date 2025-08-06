@@ -20,7 +20,7 @@ export const FinalCTA = () => {
     }
     
     // Redirect to Kiwify checkout
-    window.open('https://pay.kiwify.com.br/ky5ZU3k', '_blank');
+            window.open('https://pay.kiwify.com.br/cepxNYP', '_blank');
   };
 
   return (
