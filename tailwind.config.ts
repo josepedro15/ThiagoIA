@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
 	darkMode: ["class"],
@@ -63,7 +64,13 @@ export default {
 				green: {
 					primary: 'hsl(var(--green-primary))',
 					hover: 'hsl(var(--green-hover))'
-				}
+				},
+				neonBlue: '#00f3ff',
+			},
+			boxShadow: {
+				'brutalist': '4px 4px 0px 0px rgba(0,0,0,1)',
+				'brutalist-lg': '8px 8px 0px 0px rgba(0,0,0,1)',
+				'brutalist-neon': '4px 4px 0px 0px #00f3ff',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -94,5 +101,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [tailwindcssAnimate],
 } satisfies Config;

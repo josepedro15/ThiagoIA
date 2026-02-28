@@ -46,6 +46,7 @@ All colors MUST be HSL.
     --green-hover: 158 64% 45%;
     --white-pure: 0 0% 100%;
     --gray-text: 215 20.2% 65.1%;
+    --neon-blue: 184 100% 50%; /* #00f3ff */
 
     /* Gradients */
     --gradient-cta: linear-gradient(135deg, hsl(var(--green-primary)), hsl(var(--green-hover)));
@@ -62,7 +63,7 @@ All colors MUST be HSL.
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border border-solid;
   }
 
   body {
