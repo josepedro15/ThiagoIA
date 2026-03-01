@@ -20,7 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Space Grotesk', 'sans-serif'],
+				display: ['Space Grotesk', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -28,8 +29,10 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'background-light': '#f5f6f8',
+				'background-dark': '#101622',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: '#0d59f2',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -45,7 +48,7 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
+					DEFAULT: '#ccfb4b',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
 				popover: {
@@ -71,6 +74,7 @@ export default {
 				'brutalist': '4px 4px 0px 0px rgba(0,0,0,1)',
 				'brutalist-lg': '8px 8px 0px 0px rgba(0,0,0,1)',
 				'brutalist-neon': '4px 4px 0px 0px #00f3ff',
+				'brutalist-white': '4px 4px 0px 0px #ffffff',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

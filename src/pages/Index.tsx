@@ -1,41 +1,34 @@
-import { Hero } from '@/components/sections/Hero';
-import { Benefits } from '@/components/sections/Benefits';
-import { EquipmentSpecialization } from '@/components/sections/EquipmentSpecialization';
-import { SocialProofSection } from '@/components/sections/SocialProofSection';
-import { Pricing } from '@/components/sections/Pricing';
-import { Guarantee } from '@/components/sections/Guarantee';
-import { FAQ } from '@/components/sections/FAQ';
-import { FinalCTA } from '@/components/sections/FinalCTA';
-import { FixedHeader } from '@/components/FixedHeader';
-import { SocialProof } from '@/components/SocialProof';
+import { Header } from '@/components/home/Header';
+import { HeroSection } from '@/components/home/HeroSection';
+import { SocialProof } from '@/components/home/SocialProof';
+import { BenefitsSection } from '@/components/home/BenefitsSection';
+import { ProblemVsSolution } from '@/components/home/ProblemVsSolution';
+import { HowItWorks } from '@/components/home/HowItWorks';
+import { ImageBanner } from '@/components/home/ImageBanner';
+import { PricingSection } from '@/components/home/PricingSection';
+import { FaqSection } from '@/components/home/FaqSection';
+import { Footer } from '@/components/home/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans">
-      <FixedHeader />
-      <SocialProof />
-      
-      <main>
-        <Hero />
-        <Benefits />
-        <EquipmentSpecialization />
-        <SocialProofSection />
-        <Pricing />
-        <Guarantee />
-        <FAQ />
-        <FinalCTA />
-      </main>
-      
-      <footer className="py-8 px-4 border-t border-border">
-        <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 ThiagoIA. Todos os direitos reservados.</p>
-          <p className="mt-2">
-            Política de Privacidade | Termos de Uso | Contato: atendesoft@gmail.com
-          </p>
+    <div className="font-sans min-h-screen bg-background text-foreground dark">
+      <div className="bg-[#f5f6f8] dark:bg-[#101622] text-slate-900 dark:text-slate-100 font-display overflow-x-hidden">
+        <div className="relative flex min-h-screen w-full flex-col">
+          <Header />
+          <HeroSection />
+          <SocialProof />
+          <BenefitsSection />
+          <ProblemVsSolution />
+          <HowItWorks />
+          <ImageBanner />
+          <PricingSection />
+          <FaqSection />
+          <Footer />
         </div>
-      </footer>
+      </div>
     </div>
   );
 };
 
 export default Index;
+
