@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CheckSquare, FileText, CheckCircle2, Circle, X } from 'lucide-react';
 import { Button } from './button';
 import { toast } from 'sonner';
+import { supabase } from '@/integrations/supabase/client';
 
 interface ChecklistItem {
     id: string;
@@ -28,10 +29,15 @@ export const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ isOpen, setIsOpe
         ]
     );
 
-    const toggleItem = (id: string) => {
+    const toggleItem = async (id: string) => {
+        let taskCompleted = false;
+        let taskName = '';
+
         setItems(items.map(item => {
             if (item.id === id) {
                 const nowChecked = !item.is_checked;
+                taskCompleted = nowChecked;
+                taskName = item.task;
                 return {
                     ...item,
                     is_checked: nowChecked,
@@ -40,6 +46,23 @@ export const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ isOpen, setIsOpe
             }
             return item;
         }));
+
+        // Se marcou como concluído, grave o log imutável no banco
+        if (taskCompleted) {
+            try {
+                const { data: { user } } = await supabase.auth.getUser();
+                if (user) {
+                    await supabase.from('checklist_logs').insert({
+                        user_id: user.id,
+                        checklist_title: title,
+                        task_id: id,
+                        task: taskName
+                    });
+                }
+            } catch (err) {
+                console.error("Erro ao gravar log de auditoria", err);
+            }
+        }
     };
 
     const progress = Math.round((items.filter(i => i.is_checked).length / items.length) * 100) || 0;

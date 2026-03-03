@@ -7,22 +7,22 @@ export const HeroSection = () => {
                 <div className="flex flex-col gap-8">
                     <div className="inline-flex w-fit items-center gap-2 border border-primary/50 bg-primary/10 px-3 py-1 text-xs font-bold text-primary uppercase tracking-wider">
                         <span className="size-2 bg-[#ccfb4b] rounded-full animate-pulse"></span>
-                        Atendimento 24h Disponível
+                        Acesso Imediato 24/7
                     </div>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter text-white uppercase">
-                        Técnico <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Expert</span> de Bolso.
+                        Pare de <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">Perder Dinheiro</span> com Máquinas Paradas.
                     </h1>
                     <p className="text-lg md:text-xl text-slate-400 font-medium max-w-lg border-l-4 border-primary pl-6">
-                        Especialista em Ecocardiógrafos, Mamógrafos, Densitometria Óssea e Ultrassom. Resolva problemas na hora via WhatsApp, por uma fração do custo de uma visita técnica.
+                        Tenha o engenheiro clínico das maiores marcas globais na palma da sua mão. Resolva falhas em segundos e elimine a extorsão das visitas técnicas presenciais.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="https://buy.stripe.com/5kQ3cvf6h1Ftgo7bhO28803" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-white text-black border-2 border-white text-base font-black uppercase tracking-wide hover:bg-slate-200 transition-colors shadow-[6px_6px_0px_0px_#0d59f2] hover:translate-x-[2px] hover:translate-y-[2px]">
-                            Assinar Agora (R$ 29,90/m)
-                            <span className="material-symbols-outlined ml-2">arrow_forward</span>
+                        <a href="https://buy.stripe.com/5kQ3cvf6h1Ftgo7bhO28803" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-primary text-white border-2 border-primary text-base font-black uppercase tracking-wide hover:bg-blue-600 transition-colors shadow-[6px_6px_0px_0px_white] hover:translate-x-[2px] hover:translate-y-[2px]">
+                            Quero Escalar Minha Clínica (R$ 29,90)
+                            <span className="material-symbols-outlined ml-2">check_circle</span>
                         </a>
-                        <a href="https://wa.me/5511999999999?text=Oi%20Med%20IA%20OS!%20Tenho%20uma%20d%C3%BAvida%20sobre%20meu%20equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-transparent text-white border-2 border-slate-600 text-base font-bold uppercase tracking-wide hover:border-white transition-colors">
-                            Testar Grátis
-                            <span className="material-symbols-outlined ml-2">chat</span>
+                        <a href="https://wa.me/5511999999999?text=Quero%20testar%20agora!" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-transparent text-white border-2 border-slate-600 text-base font-bold uppercase tracking-wide hover:border-white transition-colors">
+                            Ver Na Prática
+                            <span className="material-symbols-outlined ml-2">play_circle</span>
                         </a>
                     </div>
                 </div>

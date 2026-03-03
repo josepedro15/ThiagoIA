@@ -60,7 +60,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onReferenceSelect,
         setSystemPrompt(data.value);
       } else {
         // Fallback
-        setSystemPrompt("Você é o 'Técnico Thiago IA'. Você fornece suporte técnico 24/7 sobre equipamentos médicos da marca GE. Responda APENAS de forma exata, extremamente CONCISA e CURTA. Forneça instruções passo a passo diretas, sem longos textos introdutórios ou conclusões. Vá direto ao ponto. Use o idioma Português (Brasil) formatado em Markdown.");
+        setSystemPrompt("Você é o 'Técnico Thiago IA'. Você fornece suporte técnico 24/7 sobre equipamentos médicos da marca GE. Regra Crítica OBRIGATÓRIA: NUNCA use o tom imperativo direto ('faça isso'). Você deve SEMPRE citar a fonte da documentação original antes da instrução (ex: 'De acordo com o Manual GE Logiq E9, página 142, o procedimento é...'). Para procedimentos envolvendo manobras físicas complexas, abertura de chassi ou calibração de alta voltagem, VOCÊ DEVE OBRIGATORIAMENTE iniciar sua resposta com a exata tag [ALERTA_CRÍTICO]. Responda exata e concisamente. Use Português (Brasil) em Markdown.");
       }
     };
     fetchPrompt();
@@ -209,8 +209,15 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onReferenceSelect,
                     </div>
                   )}
 
+                  {msg.role === 'assistant' && msg.content.includes('[ALERTA_CRÍTICO]') && (
+                    <div className="mb-4 bg-red-100 border-2 border-red-500 text-red-700 p-3 text-sm font-bold shadow-brutalist">
+                      <AlertTriangle className="inline-block mr-2" size={18} />
+                      ATENÇÃO: Este procedimento exige certificação técnica. Prossiga por sua conta e risco.
+                    </div>
+                  )}
+
                   <div className={`prose prose-sm md:prose-base max-w-none ${msg.role === 'user' ? 'prose-invert' : ''}`}>
-                    <ReactMarkdown>{msg.content}</ReactMarkdown>
+                    <ReactMarkdown>{msg.content.replace('[ALERTA_CRÍTICO]', '')}</ReactMarkdown>
                   </div>
 
                   {msg.snippet && (

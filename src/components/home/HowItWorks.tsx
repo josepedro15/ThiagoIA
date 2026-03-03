@@ -25,8 +25,8 @@ export const HowItWorks = () => {
                         <div className="w-24 h-24 rounded-full border-4 border-[#101622] bg-[#ccfb4b] flex items-center justify-center mb-6 shadow-[0px_0px_20px_rgba(204,251,75,0.2)] group-hover:scale-110 transition-transform">
                             <span className="material-symbols-outlined text-black text-4xl">forum</span>
                         </div>
-                        <h4 className="text-2xl font-bold text-white mb-2 uppercase tracking-wide">2. Chame no Whats</h4>
-                        <p className="text-slate-400 max-w-xs">Você receberá o número exclusivo do Thiago IA. É só salvar e chamar quando precisar.</p>
+                        <h4 className="text-2xl font-bold text-white mb-2 uppercase tracking-wide">2. Converse com a IA</h4>
+                        <p className="text-slate-400 max-w-xs">Acesse o chat integrado diretamente na nossa plataforma e converse com o especialista a qualquer momento.</p>
                     </div>
 
                     {/* Step 3 */}

@@ -13,23 +13,18 @@ export const Footer = () => {
                         <br />© 2024 Med IA OS Inc.
                     </p>
                 </div>
-                <div className="flex flex-col md:flex-row gap-12">
+                <div className="flex flex-col md:flex-row gap-12 md:gap-24">
                     <div className="flex flex-col gap-4">
                         <h4 className="text-white font-bold uppercase tracking-wider">Serviço</h4>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#features">Recursos</a>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#pricing">Preços</a>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#faq">FAQ</a>
+                        <a className="text-slate-400 hover:text-white transition-colors" href="/#features">Recursos</a>
+                        <a className="text-slate-400 hover:text-white transition-colors" href="/#pricing">Preços</a>
+                        <a className="text-slate-400 hover:text-white transition-colors" href="/#faq">FAQ</a>
                     </div>
                     <div className="flex flex-col gap-4">
                         <h4 className="text-white font-bold uppercase tracking-wider">Suporte</h4>
                         <a className="text-slate-400 hover:text-white transition-colors" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Fale Conosco</a>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#">Termos de Uso</a>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#">Privacidade</a>
-                    </div>
-                    <div className="flex flex-col gap-4">
-                        <h4 className="text-white font-bold uppercase tracking-wider">Social</h4>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#">Instagram</a>
-                        <a className="text-slate-400 hover:text-white transition-colors" href="#">LinkedIn</a>
+                        <a className="text-slate-400 hover:text-white transition-colors" href="/termos">Termos de Uso</a>
+                        <a className="text-slate-400 hover:text-white transition-colors" href="/privacidade">Privacidade</a>
                     </div>
                 </div>
             </div>
