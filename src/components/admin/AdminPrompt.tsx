@@ -25,7 +25,7 @@ export const AdminPrompt: React.FC<AdminPromptProps> = ({ enabled }) => {
                     Prompt de Sistema Principal
                 </Label>
                 <p className="text-sm text-gray-600 mb-2">
-                    Este texto dita o comportamento, as regras e a personalidade do ThiagoIA. As alterações aqui refletem universalmente em todos os chats (que abrirem após o salvamento).
+                    Este texto dita o comportamento, as regras e a personalidade do Med IA OS. As alterações aqui refletem universalmente em todos os chats (que abrirem após o salvamento).
                 </p>
                 {promptLoading ? (
                     <div className="animate-pulse h-64 bg-zinc-200 border-2 border-black"></div>

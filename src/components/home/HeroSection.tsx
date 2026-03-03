@@ -16,11 +16,11 @@ export const HeroSection = () => {
                         Especialista em Ecocardiógrafos, Mamógrafos, Densitometria Óssea e Ultrassom. Resolva problemas na hora via WhatsApp, por uma fração do custo de uma visita técnica.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="https://buy.stripe.com/dRmfZh5vH4RF1tdeu028800" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-white text-black border-2 border-white text-base font-black uppercase tracking-wide hover:bg-slate-200 transition-colors shadow-[6px_6px_0px_0px_#0d59f2] hover:translate-x-[2px] hover:translate-y-[2px]">
-                            Assinar Agora (R$ 47/m)
+                        <a href="https://buy.stripe.com/5kQ3cvf6h1Ftgo7bhO28803" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-white text-black border-2 border-white text-base font-black uppercase tracking-wide hover:bg-slate-200 transition-colors shadow-[6px_6px_0px_0px_#0d59f2] hover:translate-x-[2px] hover:translate-y-[2px]">
+                            Assinar Agora (R$ 29,90/m)
                             <span className="material-symbols-outlined ml-2">arrow_forward</span>
                         </a>
-                        <a href="https://wa.me/5511999999999?text=Oi%20ThiagoIA!%20Tenho%20uma%20d%C3%BAvida%20sobre%20meu%20equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-transparent text-white border-2 border-slate-600 text-base font-bold uppercase tracking-wide hover:border-white transition-colors">
+                        <a href="https://wa.me/5511999999999?text=Oi%20Med%20IA%20OS!%20Tenho%20uma%20d%C3%BAvida%20sobre%20meu%20equipamento." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-14 px-8 bg-transparent text-white border-2 border-slate-600 text-base font-bold uppercase tracking-wide hover:border-white transition-colors">
                             Testar Grátis
                             <span className="material-symbols-outlined ml-2">chat</span>
                         </a>
@@ -33,7 +33,7 @@ export const HeroSection = () => {
                             <div className="flex items-center gap-3 border-b-2 border-slate-800 pb-3 mt-4">
                                 <div className="size-10 rounded-full bg-primary flex items-center justify-center text-white"><span className="material-symbols-outlined">support_agent</span></div>
                                 <div>
-                                    <p className="text-white font-bold text-sm">Técnico Thiago IA</p>
+                                    <p className="text-white font-bold text-sm">Med IA OS</p>
                                     <p className="text-[#ccfb4b] text-xs">Online agora</p>
                                 </div>
                             </div>

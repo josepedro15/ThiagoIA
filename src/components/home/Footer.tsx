@@ -5,12 +5,12 @@ export const Footer = () => {
                 <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-3 text-white">
                         <span className="material-symbols-outlined text-3xl text-primary font-black">support_agent</span>
-                        <h2 className="text-3xl font-bold uppercase tracking-widest">ThiagoIA</h2>
+                        <h2 className="text-3xl font-bold uppercase tracking-widest">Med IA OS</h2>
                     </div>
                     <p className="text-slate-500 max-w-xs">
                         Criado por AtendSoft.<br />
-                        Seu Especialista de Equipamentos Médicos.
-                        <br />© 2024 ThiagoIA Inc.
+                        Seu Sistema de Gestão de Ordens de Serviço.
+                        <br />© 2024 Med IA OS Inc.
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row gap-12">

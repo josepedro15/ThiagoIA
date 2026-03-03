@@ -11,7 +11,7 @@ export const PricingSection = () => {
                     {/* Monthly Plan */}
                     <div className="w-full border-2 border-slate-700 bg-[#151b26] p-8 flex flex-col h-full relative group hover:border-[#ccfb4b] transition-colors">
                         <h3 className="text-xl font-bold text-slate-300 uppercase tracking-widest mb-2 group-hover:text-[#ccfb4b] transition-colors">Mensal</h3>
-                        <div className="text-5xl font-black text-white mb-6">R$ 47<span className="text-lg font-medium text-slate-500">/mês</span></div>
+                        <div className="text-5xl font-black text-white mb-6">R$ 29,90<span className="text-lg font-medium text-slate-500">/mês</span></div>
                         <p className="text-slate-300 text-sm mb-8 border-b border-slate-700 pb-8">Compromisso leve. Teste e comprove a eficiência do Thiago IA na sua clínica.</p>
                         <ul className="flex flex-col gap-4 mb-8 flex-1">
                             <li className="flex items-center gap-3 text-sm text-slate-300">
@@ -31,7 +31,7 @@ export const PricingSection = () => {
                                 Garantia Incondicional de 7 dias
                             </li>
                         </ul>
-                        <a href="https://buy.stripe.com/dRmfZh5vH4RF1tdeu028800" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full py-4 border-2 border-slate-600 text-white font-bold uppercase tracking-wider hover:bg-slate-700 transition-colors shadow-brutalist hover:shadow-none focus:translate-y-1 focus:translate-x-1">
+                        <a href="https://buy.stripe.com/5kQ3cvf6h1Ftgo7bhO28803" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full py-4 border-2 border-slate-600 text-white font-bold uppercase tracking-wider hover:bg-slate-700 transition-colors shadow-brutalist hover:shadow-none focus:translate-y-1 focus:translate-x-1">
                             Assinar Mensal
                         </a>
                     </div>
@@ -40,7 +40,7 @@ export const PricingSection = () => {
                     <div className="w-full border-4 border-primary bg-[#151b26] p-8 flex flex-col h-full relative shadow-[0px_0px_40px_rgba(13,89,242,0.15)] transform md:-translate-y-4">
                         <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold uppercase py-1 px-3">2 Meses Grátis</div>
                         <h3 className="text-xl font-bold text-primary uppercase tracking-widest mb-2">Anual</h3>
-                        <div className="text-5xl font-black text-white mb-6">R$ 470<span className="text-lg font-medium text-slate-500">/ano</span></div>
+                        <div className="text-5xl font-black text-white mb-6">R$ 299,00<span className="text-lg font-medium text-slate-500">/ano</span></div>
                         <p className="text-slate-200 text-sm mb-8 border-b border-primary/30 pb-8">Para clínicas que querem tranquilidade o ano inteiro, com a melhor economia.</p>
                         <ul className="flex flex-col gap-4 mb-8 flex-1">
                             <li className="flex items-center gap-3 text-sm text-white font-bold">
@@ -53,14 +53,14 @@ export const PricingSection = () => {
                             </li>
                             <li className="flex items-center gap-3 text-sm text-white font-bold">
                                 <span className="material-symbols-outlined text-primary text-lg">savings</span>
-                                Economia de R$ 94,00 no ano
+                                Economia de R$ 59,80 no ano
                             </li>
                             <li className="flex items-center gap-3 text-sm text-white font-bold">
                                 <span className="material-symbols-outlined text-primary text-lg">check_circle</span>
                                 Garantia Incondicional de 7 dias
                             </li>
                         </ul>
-                        <a href="https://buy.stripe.com/dRmaEX6zL2Jx0p94Tq28801" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full py-4 bg-primary text-white font-bold uppercase tracking-wider hover:bg-blue-600 transition-colors shadow-[4px_4px_0px_0px_#ffffff] hover:translate-x-[2px] hover:translate-y-[2px]">
+                        <a href="https://buy.stripe.com/5kQ5kD4rD4RF4Fp99G28804" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full py-4 bg-primary text-white font-bold uppercase tracking-wider hover:bg-blue-600 transition-colors shadow-[4px_4px_0px_0px_#ffffff] hover:translate-x-[2px] hover:translate-y-[2px]">
                             Assinar Anual
                         </a>
                     </div>

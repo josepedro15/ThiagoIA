@@ -7,7 +7,7 @@ export const Header = () => {
                 <div className="flex items-center justify-center size-10 bg-primary text-white border-2 border-white">
                     <span className="material-symbols-outlined text-2xl font-bold">rocket_launch</span>
                 </div>
-                <h2 className="text-white text-2xl font-bold uppercase tracking-widest">ThiagoIA</h2>
+                <h2 className="text-white text-2xl font-bold uppercase tracking-widest">Med IA OS</h2>
             </div>
             <nav className="hidden md:flex items-center gap-8">
                 <a className="text-slate-300 hover:text-primary hover:underline decoration-2 underline-offset-4 text-sm font-bold uppercase tracking-wide transition-colors" href="#features">Recursos</a>
